@@ -18,3 +18,11 @@ for i in range(3):
     if coin == 1:
         print("Tails")
         tail += 1
+
+print("Heads: " + str(head) + ", Tails: " + str(tail))
+if head > tail:
+    print(name + " won!")
+if head < tail:
+    print(name + " lost!")
+if head == tail:
+    print("draw!")
