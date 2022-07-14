@@ -1,5 +1,10 @@
 import random
 
+print("Who are you?")
+print("> ")
+name = input()
+print("Hello, " + name + "!")
+
 print("Tossing a coin...")
 
 head = 0
@@ -13,6 +18,3 @@ for i in range(3):
     if coin == 1:
         print("Tails")
         tail += 1
-
-print("Heads: " + str(head) + ", Tails: " + str(tail))
-    
